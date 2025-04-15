@@ -1,14 +1,20 @@
-Ex.No:4 Design an android application Send SMS using Intent.
-AIM:
+
+# Ex.No:4 Design an android application Send SMS using Intent.
+
+
+## AIM:
+
 To create and design an android application Send SMS using Intent using Android Studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+
 Android Studio(Latest Version)
 
-ALGORITHM:
+## ALGORITHM:
+
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as smsintent and click Next.
+Step 2: Then type the Application name as smsintent and click Next. 
 
 Step 3: Then select the Minimum SDK as shown below and click Next.
 
@@ -20,13 +26,15 @@ Step 6: Send SMS and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM:
-/*
+## PROGRAM:
+```
 Program to create and design an android application Send SMS using Intent.
 Developed by: Surya R
 Registeration Number : 212222040167
-*/
-MainActivity.Java:
+```
+
+## MainActivity.Java:
+```
 package com.example.exp_4;
 
 import android.os.Bundle;
@@ -60,7 +68,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-activitymain.xml:
+```
+## activitymain.xml:
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -79,12 +89,16 @@ activitymain.xml:
         android:layout_centerVertical="true"/>
 
 </RelativeLayout>
-OUTPUT
-image
+```
 
-image
+## OUTPUT
+![image](https://github.com/user-attachments/assets/ec40a8f2-a057-4e96-8f75-2703828013a8)
 
-image
+![image](https://github.com/user-attachments/assets/5ad22f55-6e81-485b-abce-0d37f8fa5e6e)
 
-RESULT
-Thus a Simple Android Application create and design an android application Send SMS using Intent using Android Studio is developed and executed successfully
+![image](https://github.com/user-attachments/assets/fdb0590a-8ced-4dae-b52d-11ab7d77f1c8)
+
+
+
+## RESULT
+Thus a Simple Android Application create and design an android application Send SMS using Intent using Android Studio is developed and executed successfully.
